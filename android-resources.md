@@ -1,6 +1,8 @@
 > Youtube Link: https://www.youtube.com/playlist?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E
 
-> Udacity Link: https://classroom.udacity.com/courses/ud834
+> Udacity C1 Link: https://classroom.udacity.com/courses/ud834
+
+> Udacity C2 Link: https://classroom.udacity.com/courses/ud836
 
 > Official Docs: https://developer.android.com/docs
 
