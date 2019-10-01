@@ -17,9 +17,40 @@
              
         1) [MTech Viral](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA)
 
-> Udacity C1 Link: https://classroom.udacity.com/courses/ud834
+> **Udacity Free Courses Link:**
+  
+   1) **Java** (Go with sequence)
+      
+       1) [Android Basics: User Interface](https://www.udacity.com/course/android-basics-user-interface--ud834)
+      
+       2) [Android Basics: User Input](https://www.udacity.com/course/android-basics-user-input--ud836)
+      
+       3) [Android Basics: Multiscreen Apps](https://www.udacity.com/course/android-basics-multiscreen-apps--ud839)
+      
+       4) [Android Basics: Networking](https://www.udacity.com/course/android-basics-networking--ud843)
+      
+       5) [Android Basics: Data Storage](https://www.udacity.com/course/android-basics-data-storage--ud845)
+       
+       6) [Developing Android Apps](https://www.udacity.com/course/new-android-fundamentals--ud851)
+       
+       7) [Advanced Android App Development](https://www.udacity.com/course/advanced-android-app-development--ud855)
+       
+       8) [Material Design for Android Developers](https://www.udacity.com/course/material-design-for-android-developers--ud862)
+       
+       9) [Gradle for Android and Java](https://www.udacity.com/course/gradle-for-android-and-java--ud867)
+      
+   2) **Kotlin**     
+             
+       1) [Developing Android Apps with Kotlin](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)             
+ 
+   3) **Flutter**     
+             
+       1) [Build Native Mobile Apps with Flutter](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)    
+      
+   4) **Firebase**     
+             
+       1) [Firebase in a Weekend: Android](https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352)  
 
-> Udacity C2 Link: https://classroom.udacity.com/courses/ud836
 
 > Official Docs: https://developer.android.com/docs
 
