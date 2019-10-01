@@ -17,6 +17,8 @@
    3) **Flutter**     
              
         1) [MTech Viral](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA)
+        
+---------------------------------------------------------------------------------------------------------------------------------------
 
 > **__Udacity Free Courses Link:__**
   
@@ -52,6 +54,8 @@
              
        1) [Firebase in a Weekend: Android](https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352)  
 
+---------------------------------------------------------------------------------------------------------------------------------------
+
 
 > **__Official Documentation__**: 
 
@@ -63,6 +67,8 @@
    2) **Flutter**     
              
         1) [Flutter Documentation](https://flutter.dev/docs)
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 
 > **__Codelabs__**: 
