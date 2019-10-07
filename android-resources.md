@@ -82,3 +82,10 @@
              
         1) [Codelabs](https://flutter.dev/docs/codelabs)
 
+---------------------------------------------------------------------------------------------------------------------------------------
+
+> **__Blogs__**: 
+
+   1) [MindOrks](https://medium.com/mindorks/learning-android-development-in-2019-a-practical-guide-ddc71e008696)
+
+
