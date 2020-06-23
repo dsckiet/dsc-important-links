@@ -19,7 +19,6 @@
 ```
      vector<int>v1;   
      v1=v; 
-     v1 
      //Elements in v1 -> {5,-2,5,10,4,1} 
 ```
 3) <b>Delete element from vector(from last):</b><br>
