@@ -1,65 +1,100 @@
 # Tips & Tricks for Vectors 
-
-vector<int>v; //Vector Initialization
      
-     v.push_back(5); // Adds an element at last of vector.
+   ### __Vector Initialization__
+   ```
+      vector <int> v;
+   ```
+   
+1) <b>Insert an element (At last index) in vector:</b><br>
+```
+     v.push_back(5); 
      v.push_back(-2);
      v.push_back(5);
      v.push_back(10);
-     v.emplace_back(4);  // similar to push_back but it is more faster and it allocates memory directly in container.
+     v.emplace_back(4);  // similar to 'push_back' but it is more faster and it allocates memory directly in container.
      v.emplace_back(1);
+     //Elements in v -> {5,-2,5,10,4,1}
+```
+2) <b>Copy one vector to another vector:</b><br>
+```
+     vector<int>v1;   
+     v1=v; 
+     //Elements in v1 -> {5,-2,5,10,4,1} 
+```
+3) <b>Delete element from vector(from last):</b><br>
+```
+     v.pop_back();
+     //Elements in v -> {5,-2,5,10,4}
+``` 
+4) <b>Erase all elements from vector:</b><br>
+```
+     v.erase(v.begin(),v.end());
+     //Elements in v -> {}
+```
+5) <b>Size of vector: </b><br>
+```
+     v.size(); //0 [Vector is empty]
+     v1.size(); //6 [Vector contains 6 elements in it]
+``` 
+6) <b>Resize vector: </b><br>
+```
+     v1.resize(5);
+     //Elements in v1 -> {5,-2,5,10,4}
+```  
+7) <b>Find the distance between two iterators:</b><br>
+```
+     distance(v1.begin(),v1.end()); //5
+```  
+8) <b>Sort a vector:</b><br>
+```
+     sort(v1.begin(),v1.end()); 
+     //Elements in v1 -> {-2,4,5,5,10}
+```  
+9) <b>Reverse a vector:</b><br>
+```
+     reverse(v1.begin(),v1.end());
+     //Elements in v1 -> {10,5,5,4,-2}
+```  
+10) <b>Count the occurence of any element in vector:</b><br>
+```
+     count(v1.begin(),v1.end(),5); //2
+```  
+11) <b>Check whether any element is present or not in vector:</b><br>
+```
+     binary_search(v1.begin(),v1.end(),10); //1 -> Present
+     binary_search(v1.begin(),v1.end(),0);  //0 -> Not present
+```  
+12) <b>Find the index of element in vector:</b><br>
+```
+     auto itr = find(v1.begin(),v1.end(),4);
+     itr - v1.begin(); //3
+```  
+13) <b>Find only unique elements in vector:</b><br>
+```
+     First we have to sort the vector then,
+     auto itr = unique(v1.begin(),v1.end());
+     //Elements in v1 -> {-2,4,5,10,5}
+     v1.resize(distance(v1.begin(), itr)); //Resizing the vector to remove elements after iterator
+     //Elements in v1 -> {-2,4,5,10} 
+```  
+14) <b>Function to check that if vector is sorted:</b><br>
+```
+     is_sorted((v1.begin(),v1.end()) //0 -> False
+``` 
+15) <b>Function to check that if all elements satisfies the given condition:</b><br>
+```
+     all_of((v1.begin(),v1.end(), [](int x) { return x>0; }) //0 -> False
+     all_of((v1.begin(),v1.end(), [](int x) { return x!=0;}) //1 -> True
+```  
+16) <b>Function to check that if any element satisfies the given condition:</b><br>
+```
+     any_of((v1.begin(),v1.end(), [](int x) { return x>0; }) //1 -> True
+     any_of((v1.begin(),v1.end(), [](int x) { return x==0;}) //0 -> False
+``` 
+17) <b>Function to check that if elements not satisfies the given condition:</b><br>
+```
+     none_of((v1.begin(),v1.end(), [](int x) { return x>0; }) //0 -> False
+     none_of((v1.begin(),v1.end(), [](int x) { return x!=0;}) //1 -> True
+``` 
 
-     v // {5,-2,5,10,4,1}
-
-      vector<int>v1;
-         
-      v1=v;  //Copy all elements of vector v to v1.
-      v1 // {5,-2,5,10,4,1}    
-    
-      v.pop_back() // Deletes last element of vector.
-      v  // {5,-2,5,10,4}
-      
-      v.erase(v.begin(),v.end()) // Erase all the elements from first_iterator to last_iterator.
-      v // {}
-
-      int a = v1.size() // return number of elements present in vector.
-      cout << a  // 6 
-
-      v1.resize() // S is any number which is new size of vector. If S=2 then v={5,-2}.
-      v1.resize(5) // {5,-2,5,10,4}
-      
-      int b = distance(v1.begin(),v1.end()) // If we have two iterators and we want to find the total no. of elements between the two iterators
-      cout << b // 5
-           
-      unique((v1.begin(),v1.end()) // Deletes all the duplicates elements in vector.
-      v1 // {5,-2,10,4}
-      
-      reverse((v1.begin(),v1.end()) // Reverse all vector elements in the given range.
-      v1 // {4,10,-2,5}
-     
-      sort((v1.begin(),v1.end()) // sort vector in given range.
-      v1 // {-2,4,5,10}
-     
-      count((v1.begin(),v1.end(), N ) // Return number of occurences of N.
-      int c = count((v1.begin(),v1.end(), 4 )
-      cout << c // 1
-     
-      binary_search((v1.begin(),v1.end(), N) // Search given number N and return 1 if element is present otherwise return 0.
-      int d = binary_search((v1.begin(),v1.end(), 10)
-      cout << d // 1 
-     
-      find((v1.begin(),v1.end(), N ) // If element is present then return iterator pointing to that value otherwise iterator points to vector size. 
-      auto it=find(v1.begin(),v1.end(),5)
-      cout<<it-v1.begin() // 2
-    
-      int y = all_of((v1.begin(),v1.end(), [](int x) { return x>0; })   // This function checks that if all elements satisfies the given condition then return 1 otherwise 0. 
-      cout << y // 0
-  
-      int k = any_of((v1.begin(),v1.end(), [](int x) { return x<0; })    // This function checks that if any element satisfies the given condition then return 1 otherwise 0. 
-      cout << k // 1
-     
-      int w = none_of((v1.begin(),v1.end(), [](int x) { return x>0; })   // This function returns 1 if none of elements satisfies the given condition else returns 0.
-      cout << w // 0
-     
-     int n = is_sorted((v1.begin(),v1.end())  // Return 1 if given vector is sorted otherwise 0.
-     cout << n // 0
+ 
