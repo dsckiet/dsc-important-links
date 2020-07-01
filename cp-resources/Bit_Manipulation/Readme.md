@@ -12,7 +12,7 @@
    
 4) Count the number of set bits in number
    * Using in-built function <br>
-      <b> ```__builtin__popcount(n)``` </b> <br>
+      <b> ```__builtin_popcount(n)``` </b> <br>
    * By making separate function <br>
       <b>
       ```
