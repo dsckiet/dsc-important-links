@@ -25,8 +25,8 @@
       ```
       </b>
           
-5) Number of leading zeroes: <b> ```builtin_clz(x)``` </b><br>
-   Number of trailing zeroes : <b> ```builtin_ctz(x)``` </b> 
+5) Number of leading zeroes: <b> ```__builtin_clz(x)``` </b><br>
+   Number of trailing zeroes : <b> ```__builtin_ctz(x)``` </b> 
       
 6) Remove last set bit from number: <br> <b>
    ``` Take & of n and n-1 ``` </b>
