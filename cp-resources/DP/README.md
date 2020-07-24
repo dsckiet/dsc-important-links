@@ -6,4 +6,10 @@ Start with **Knapsacks** to find out the **_maximum and minimum_** elements/valu
 2) [Knapsack Memoize](../master/cp-resources/DP/knapsack_memoize.cpp)
 3) [Knapsack Top Down](../master/cp-resources/DP/knapsack_top_down.cpp) 
 
+&nbsp; Basic Problems Related to Knapsack
+1) [Subset Sum](../master/cp-resources/DP/Problems_Knapsack/subset_sum.cpp)
+2) [Equal Sum Partition](../master/cp-resources/DP/Problems_Knapsack/equal_sum_partition.cpp)
+3) [Count of subsets with a given sum](../master/cp-resources/DP/Problems_Knapsack/count_subsets.cpp)
+   
+
 #### In Progress
