@@ -10,6 +10,8 @@ Start with **Knapsacks** to find out the **_maximum and minimum_** elements/valu
 1) [Subset Sum](../DP/Problems_Knapsack/subset_sum.cpp)
 2) [Equal Sum Partition](../DP/Problems_Knapsack/equal_sum_partition.cpp)
 3) [Count of subsets with a given sum](../DP/Problems_Knapsack/count_subsets.cpp)
+4) [Largest sum in continuous Subarray - (Kadane's Algorithm)](../DP/Problems_Knapsack/largest_sum_cont_subarray.cpp)
+5) [Minimum Difference in two subsets](../DP/Problems_Knapsack/minimum_subset_difference.cpp)
    
 
 #### In Progress
